@@ -1,0 +1,595 @@
+*{
+    font-family: great vibes;
+}
+.starbelly-navbar .navbar .nav-item a:hover {
+    color: #cd3939;
+    transition: 0.4s all;
+}
+.footer a:hover {
+    text-decoration: none;
+    color:#f7a40d;
+}
+.section-padding {
+    padding: 50px 0;
+}
+.z-index-css {
+    position: absolute;
+    z-index: 5;
+}
+/* navbar part css */
+.starbelly-navbar {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.starbelly-navbar #navbarNav {
+    justify-content: center;
+    height: 80px;
+}
+.starbelly-navbar-list {
+    column-gap: 15px;
+}
+.starbelly-navbar-list li {
+    padding-right: 30px;
+    font-size: 19px;
+    padding-top: 21px;
+}
+/* footer part css*/
+.footer {
+    background-image: url('../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 560px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+.footer::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    background-color: #0b0a0ae0;
+}
+.footer-logo {
+    padding-bottom: 20px;
+}
+.footer-section {
+    text-align: center;
+    width: 100%;
+}
+.footer-title {
+    font-size: 30px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+.footer-text {
+    font-size: 25px;
+    color:  #e7e3e3;
+}
+.footer-social-icon {
+    display: flex;
+    justify-content: center;
+}
+.social-icon {
+    padding-right: 10px;
+}
+.footer-fa {
+    padding: 10px;
+    color: #fff;
+    background-color: #cd3939;
+    width: 100%;
+}
+/* button css */
+.booking-table-btn {  
+    letter-spacing: 0.6px;
+    background: #cd3939;
+    color: #fff;
+    box-shadow: 0 0 0 #f7a40d;
+}
+.booking-table-btn:hover {
+    box-shadow: 8px 10px 0 #f7a40d;
+    transition: 0.5s all;
+}
+/* index.html page css */
+/* banner part css */
+.banner{
+    padding-top: 106px;
+    height: 609px;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+.banner::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgb(19 18 18 / 54%);
+}
+.banner-section {
+    width: 100%;
+    margin: auto;
+}
+.banner-title {
+    color:#fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family:  Lucida Calligraphy;
+}
+.banner-text {
+    color: #fff;
+    font-size: 25px;
+}
+.banner-hr{
+    border-color: #fff;
+    width: 50%;
+}
+
+/* food iteam image part css */
+.food-left {
+    padding: 40px;
+}
+.sweet-moment {
+    font-size: 55px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+/* testimonial part css */
+.review {
+    background-image: url('../images/review-bg.jpg');
+    height: 548px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.review::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background-color:#23212275;
+}
+.review-part {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.reviewer-img-circle {
+  border-radius: 50%;
+}
+.reviewer {
+    font-size: 25px;
+    color: #f7a40d;
+}
+.reviewer-img {
+    padding: 10px 20px;
+}
+.reviewer {
+    font-size: 20px;
+    color: #f7a40d;
+    text-align: left;
+    padding: 0 15px;
+}
+.review-msg {
+    font-size: 15px;
+    color: #cd3939;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.review-title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.review-hr {
+    color: #fff;
+    width: 50%;
+}
+.review-box {
+    background-color: #fff;
+    border: solid 1px rgb(248, 245, 245);
+}
+/* book a table */
+.booking-table {
+    padding: 30px;
+    background-image: url(../images/booking-table.jpg);
+    height: 468px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.booking-table::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  #0b0a0a59;
+}
+.booking-title {
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+.booking-text {
+    font-size: 18px;
+    color: #cd3939;
+}
+/* about.html part css */
+/* about part css */
+.about {
+    padding-top: 106px;
+}
+.about-title {
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+    text-transform: uppercase;
+}
+.about-text {
+    font-size: 16px;
+    color: #cd3939;
+}
+/* services part */
+.services-title {
+    text-align: center;
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+    padding-bottom: 50px;
+}
+.services-text {
+    text-align: center;
+    padding-top: 20px;
+}
+.services-heading {
+    font-size: 25px;
+    color: #cd3939;
+}
+.services-paragraph {
+    font-size: 16px;
+}
+.birthday-png {
+    width: 20%;
+    margin: auto;
+}
+.business-meeting-png {
+    width: 27%;
+    margin: auto;
+}
+.wedding-party-png {
+    width: 20%;
+    margin: auto;
+}
+/* food slider */
+.food-slider {
+    padding-bottom: 50px;
+}
+.food-slider-image{
+    height: 500px;
+}
+
+/* contact part css */
+.contact {
+    padding-top: 106px;
+}
+.map {
+    width: 100%;
+    height: 100%;
+}
+.contact-btn {
+    background: linear-gradient(355deg, #cd3939, transparent);
+}
+/* menu.html page css */
+/* menu part css */
+.iteams {
+    padding-top: 106px;
+}
+.iteam1 {
+    width: 100%;
+    height: 350px;
+}
+.iteam2 {
+    padding-top: 20px;
+    width: 100%;
+    height: 300px;
+}
+.iteam3 {
+    width: 100%;
+    height: 350px;
+    padding-top: 20px;
+}
+.menu-title-section {
+    text-align: center;
+    padding: 30px 0;
+}
+.menu-total-title {
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+.menu-title {
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+.menu-text {
+    font-size: 18px;
+}
+.menu-list-title {
+    padding: 20px 0;
+    margin: 35px 0 0;
+    font-size: 25px;
+}
+.menu-list-item {
+    padding-bottom: 20px;
+}
+.menu-list-item h4 {
+    font-size: 18px;
+}
+.menu-list-item span {
+    color: #C46B48;
+    font-family:  Lucida Calligraphy;
+    font-weight: 600;
+}
+.menu-list-item p {
+    font-size: 15px;
+} 
+.menu-total-text{
+    font-size: 18px;
+    color: #cd3939;
+}
+
+
+/* blog.html page css */
+/* blog part css */
+.blog {
+    padding-top: 106px;
+}
+.blog-title {
+    font-size: 30px;
+    color:#f7a40d; ;
+    font-family:  Lucida Calligraphy;
+}
+.blog-card {
+    border: none;
+}
+.blog-card-body h5 {
+    font-size: 22px;
+    color: #cd3939;
+}
+.card.blog-card {
+    border: none;
+}
+p.card-text {
+    font-size: 15px;
+}
+.post-search {
+    margin: 0;
+    padding: 0;
+}
+.post-search .form-control {
+    margin: 0;
+    padding: 5px 0;
+}
+.post-search-button {
+    background-color: #fff;
+    border-color: 2px solid #0b0a0a94;
+}
+.post-section {
+    display: grid;
+}
+.post-text {
+    font-size:15px;
+    padding-left: 20px;
+    margin: 0;
+    padding-top: 20px;
+}
+.post-title {
+    padding-top: 20px;
+    font-size: 22px;
+    color: #cd3939;
+}
+.post-div {
+    display: flex;
+    padding-top: 10px;
+}
+.post-date {
+    text-align: center;
+}
+.catagories-div {
+    display: grid;
+    padding: 10px;
+}
+.catagories {
+    font-size: 22px;
+    color: #cd3939;
+}
+.newsletter-title {
+    font-size: 22px;
+    color: #cd3939;
+}
+.newsletter-text {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.newsletter-button {
+    background-color: #fff;
+}
+.form-check {
+    padding: 15px;
+}
+
+/* team.html part css */
+
+/* our team part css */
+ /* signature dish part css */
+ .sinature-dish {
+    padding-top: 106px;
+    background-color: rgb(236 235 235 / 69%);
+    position: relative;
+}
+.signature-dish-title {
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+.signature-dish-name {
+    font-size: 23px;
+    width: 100%;
+    color: #cd3939;
+}
+.signature-dish-rate {
+    font-size: 23px;
+    text-align: right;
+    color: #cd3939;
+}
+.signature-dish-type {
+    font-size: 18px;   
+}
+.signature-dish-order-btn {
+    background-color: #fff;
+    font-size: 25px;
+    padding: 5px 20px;
+    border-color: #cd3939;
+}
+.signature-dish-order-btn a {
+    color: #cd3939;
+}
+.signature-dish-order-btn a:hover {
+    text-decoration: none;
+}
+.signature-dish-text {
+    border: solid 1px #cd3939;
+    padding: 30px;
+    background-color: #fff;
+    width: 115%;
+    box-shadow: 1px 2px 3px 4px #ffffff17;
+    z-index: 1;
+    position: absolute;
+}
+.team-text {
+    font-size: 40px;
+    color: #f7a40d;
+    font-family:  Lucida Calligraphy;
+}
+.chef-image {
+    box-shadow: 2px 3px 2px 1px #ddd5d594;
+}
+.name {
+    font-size: 30px;
+    margin: 0;
+}
+.cooker {
+    font-size: 20px;
+    color: #f7a40d;
+}
+.cooker-link a {
+    font-size: 17px;
+    padding-right: 10px;
+}
+.image-overlay {
+    position: relative;   
+}
+.cook-detail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color:  #0804048f;
+    opacity: 0;
+    transition: all 1s;
+}
+.cook-detail:hover {
+    opacity: 1;
+}
+.chef-socail-link {
+    color: #fff;
+}
+.chef-socail-link:hover {
+    color: #cd3939;
+}
+
+/* iphone SE Responsive */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+/* navbar */
+.starbelly-navbar-list li {
+    padding-top: 2px;
+}
+/* banner part css */
+.banner-title {
+    font-size: 45px;
+}
+/* about part css*/
+.about-title {
+   padding-top: 15px;
+}
+/* food iteam img part css */
+.sweet-moment {
+    font-size: 40px;
+}
+.food-image {
+    width: 100%;
+}
+
+/* team part css */
+.signature-dish-text {
+    width: 60%;
+    padding: 10px;
+}
+.signature-dish-title {
+    font-size: 19px;
+}
+.signature-dish-name {
+    font-size: 11px;
+}
+.signature-dish-rate {
+    font-size: 11px;
+}
+.signature-dish-type {
+    font-size: 10px;
+}
+.signature-dish-order-btn {
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.chef-image {
+    width: 100%;
+    padding-bottom: 15px;
+}
+/* blog part css */
+.blog-card {
+    padding-top: 15px;
+}
+/* review part css */
+.review {
+    width: 100%;
+}
+.review-msg {
+    font-size: 12px;
+}
+/* map part css */
+.map {
+    padding-bottom: 20px;
+}
+}
